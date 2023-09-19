@@ -1,0 +1,1 @@
+cmd /k "flutter test --update-goldens --coverage & perl C:\ProgramData\chocolatey\lib\lcov\tools\bin\lcov -o coverage\lcov.info & perl C:\ProgramData\chocolatey\lib\lcov\tools\bin\genhtml -o coverage\html coverage\lcov.info"
